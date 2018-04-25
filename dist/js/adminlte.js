@@ -4,7 +4,7 @@
 * should be included in all pages. It controls some layout
 * options and implements exclusive AdminLTE plugins.
 *
-* @Author  Almsaeed Studio
+* @Author  Digital people
 * @Support <https://www.almsaeedstudio.com>
 * @Email   <abdullah@almsaeedstudio.com>
 * @version 2.4.2
@@ -1083,7 +1083,7 @@ throw new Error('AdminLTE requires jQuery')
   };
 
   // Private
-  
+
   Tree.prototype._setUpListeners = function () {
     var that = this;
 
