@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 2 | Dashboard</title>
+  <title>SPINDLE | Dashboard</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
@@ -47,7 +47,7 @@
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>A</b>LT</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>Admin</b>LTE</span>
+      <span class="logo-lg"><b>SPINDLE</b></span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
@@ -341,19 +341,26 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li class="active"><a href="index.html"><i class="fa fa-circle-o"></i> Chat</a></li>
+            <li class="active"><a href="index.html"><i class="fa fa-comments-o"></i> Chat</a></li>
           </ul>
         </li>
-        <li class="treeview">
+        <li class="active treeview">
           <a href="#">
-            <i class="fa fa-edit"></i> <span>Forms</span>
+            <i class="fa fa-support"></i> <span>Support</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="pages/forms/general.html"><i class="fa fa-circle-o"></i>  Notice</a></li>
+            <li class="active"><a href="pages/support.html"><i class="fa fa-comments-o"></i> Chat</a></li>
           </ul>
+        </li>
+        <li>
+          <a href="pages/forms/notification.html">
+            <i class="fa fa-edit"></i> <span>Notification</span>
+            <span class="pull-right-container">
+            </span>
+          </a>
         </li>
         <li class="treeview">
           <a href="#">
@@ -440,7 +447,7 @@
                 </div>
               </div>
             </div>
-            <div class="box-body chat" id="chat-box" style="height: 900px;">
+            <div class="box-body chat" id="chat-box">
               <!-- chat item -->
               <div class="item">
                 <img src="dist/img/user4-128x128.jpg" alt="user image" class="online">
