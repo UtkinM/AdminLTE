@@ -146,20 +146,10 @@
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa fa-warning text-yellow"></i> Very long description here that may not fit into the
-                      page and may cause design problems
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
                       <i class="fa fa-users text-red"></i> 5 new members joined
                     </a>
                   </li>
-                  <li>
-                    <a href="#">
-                      <i class="fa fa-shopping-cart text-green"></i> 25 sales made
-                    </a>
-                  </li>
+
                   <li>
                     <a href="#">
                       <i class="fa fa-user text-red"></i> You changed your username
@@ -168,80 +158,6 @@
                 </ul>
               </li>
               <li class="footer"><a href="#">View all</a></li>
-            </ul>
-          </li>
-          <!-- Tasks: style can be found in dropdown.less -->
-          <li class="dropdown tasks-menu">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <i class="fa fa-flag-o"></i>
-              <span class="label label-danger">9</span>
-            </a>
-            <ul class="dropdown-menu">
-              <li class="header">You have 9 tasks</li>
-              <li>
-                <!-- inner menu: contains the actual data -->
-                <ul class="menu">
-                  <li><!-- Task item -->
-                    <a href="#">
-                      <h3>
-                        Design some buttons
-                        <small class="pull-right">20%</small>
-                      </h3>
-                      <div class="progress progress-xs">
-                        <div class="progress-bar progress-bar-aqua" style="width: 20%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                          <span class="sr-only">20% Complete</span>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <!-- end task item -->
-                  <li><!-- Task item -->
-                    <a href="#">
-                      <h3>
-                        Create a nice theme
-                        <small class="pull-right">40%</small>
-                      </h3>
-                      <div class="progress progress-xs">
-                        <div class="progress-bar progress-bar-green" style="width: 40%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                          <span class="sr-only">40% Complete</span>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <!-- end task item -->
-                  <li><!-- Task item -->
-                    <a href="#">
-                      <h3>
-                        Some task I need to do
-                        <small class="pull-right">60%</small>
-                      </h3>
-                      <div class="progress progress-xs">
-                        <div class="progress-bar progress-bar-red" style="width: 60%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                          <span class="sr-only">60% Complete</span>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <!-- end task item -->
-                  <li><!-- Task item -->
-                    <a href="#">
-                      <h3>
-                        Make beautiful transitions
-                        <small class="pull-right">80%</small>
-                      </h3>
-                      <div class="progress progress-xs">
-                        <div class="progress-bar progress-bar-yellow" style="width: 80%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                          <span class="sr-only">80% Complete</span>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <!-- end task item -->
-                </ul>
-              </li>
-              <li class="footer">
-                <a href="#">View all tasks</a>
-              </li>
             </ul>
           </li>
           <!-- User Account: style can be found in dropdown.less -->
@@ -329,16 +245,11 @@
             </span>
           </a>
         </li>
-        <li class="active treeview">
-          <a href="#">
+        <li>
+          <a href="../support.html">
             <i class="fa fa-support"></i> <span>Support</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
+
           </a>
-          <ul class="treeview-menu">
-            <li class="active"><a href="../support.html"><i class="fa fa-comments-o"></i> Chat</a></li>
-          </ul>
         </li>
         <li>
           <a href="../forms/notification.html">
@@ -347,16 +258,10 @@
             </span>
           </a>
         </li>
-        <li class="treeview active">
+        <li class="active treeview">
           <a href="#">
-            <i class="fa fa-table"></i> <span>Tables</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
+            <i class="fa fa-file-text-o"></i> <span>Notices</span>
           </a>
-          <ul class="treeview-menu">
-            <li class="active"><a href="notices.html"><i class="fa fa-circle-o"></i> Notices</a></li>
-          </ul>
         </li>
       </ul>
     </section>
@@ -373,8 +278,8 @@
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li><a href="#">Tables</a></li>
-        <li class="active">Simple</li>
+        <li><a href="../forms/notification.html">Notification</a></li>
+        <li class="active">Notices</li>
       </ol>
     </section>
 
@@ -383,67 +288,42 @@
 
       <!-- /.row -->
       <div class="row">
-        <div class="col-xs-12">
-          <div class="box">
-            <div class="box-header">
-              <h3 class="box-title">Notices</h3>
-
-              <div class="box-tools">
-                <div class="input-group input-group-sm" style="width: 150px;">
-                  <input type="text" name="table_search" class="form-control pull-right" placeholder="Search">
-
-                  <div class="input-group-btn">
-                    <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
-                  </div>
-                </div>
-              </div>
+        <div class="col-md-8">
+          <!-- general form elements disabled -->
+          <div class="box box-warning">
+            <div class="box-header with-border">
+              <h3 class="box-title">Form of notification</h3>
             </div>
             <!-- /.box-header -->
-            <div class="box-body table-responsive no-padding">
-              <table class="table table-hover">
-                <tr>
-                  <th>Type</th>
-                  <th>Title</th>
-                  <th>Date</th>
-                  <th>Text</th>
-                  <th>Action</th>
-                </tr>
-                <tr>
-                    <td><span class="label label-danger">alarm</span></td>
-                  <td>Attention</td>
-                  <td>24-4-2018</td>
-                  <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                  <td>
-                    <button class="btn btn-danger"><span class="fa fa-trash-o"></span></button>&nbsp;
-                    <a href="../forms/notification.html" class="btn btn-reddit"><span class="fa fa-edit"></span></a>
-                  </td>
-                </tr>
-                <tr>
-                  <td><span class="label label-success">info</span></td>
-                  <td>Main news</td>
-                  <td>25-4-2018</td>
-                  <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                  <td>
-                    <button class="btn btn-danger"><span class="fa fa-trash-o"></span></button>&nbsp;
-                    <a href="../forms/notification.html" class="btn btn-reddit"><span class="fa fa-edit"></span></a>
-                  </td>
-                </tr>
+            <div class="box-body">
+              <form role="form">
+                <!-- select -->
+                <div class="form-group">
+                  <label>Type</label>
+                  <select class="form-control">
+                    <option>alarm</option>
+                    <option>info</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="control-label" for="inputWarning">Title</label>
+                  <input type="text" class="form-control" id="inputWarning" placeholder="Enter ...">
+                  <span class="help-block">Notification title</span>
+                </div>
 
-              </table>
+                <!-- textarea -->
+                <div class="form-group">
+                  <label> info</label>
+                  <textarea class="form-control" rows="10" placeholder="Enter ..."></textarea>
+                  <span class="help-block">Type info</span>
+                </div>
+                <div class="box-footer col-md-6">
+                  <button type="submit" class="btn btn-danger pull-left" style="margin-right: 5px">Cancel</button>
+                  <button type="submit" class="btn btn-info pull-left">Confirm</button>
+                </div>
+              </form>
             </div>
-            <div class="box-footer clearfix">
-              <ul class="pagination pagination-sm no-margin pull-right">
-                <li><a href="#">&laquo;</a></li>
-                <li><a href="#">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">&raquo;</a></li>
-              </ul>
-            </div>
-            <a href="../forms/notification.html" class="btn btn-block label-primary"><span class="fa fa-plus"></span>&nbsp;&nbsp;Add notification</a>
-            <!-- /.box-body -->
           </div>
-          <!-- /.box -->
         </div>
       </div>
     </section>

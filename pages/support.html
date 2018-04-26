@@ -33,7 +33,7 @@
 
   <header class="main-header">
     <!-- Logo -->
-    <a href="../index2.html" class="logo">
+    <a href="#" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>A</b>LT</span>
       <!-- logo for regular state and mobile devices -->
@@ -146,102 +146,18 @@
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa fa-warning text-yellow"></i> Very long description here that may not fit into the
-                      page and may cause design problems
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
                       <i class="fa fa-users text-red"></i> 5 new members joined
                     </a>
                   </li>
+
                   <li>
                     <a href="#">
-                      <i class="fa fa-shopping-cart text-green"></i> 25 sales made
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="fa fa-user text-light-blue"></i> You changed your username
+                      <i class="fa fa-user text-red"></i> You changed your username
                     </a>
                   </li>
                 </ul>
               </li>
               <li class="footer"><a href="#">View all</a></li>
-            </ul>
-          </li>
-          <!-- Tasks: style can be found in dropdown.less -->
-          <li class="dropdown tasks-menu">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <i class="fa fa-flag-o"></i>
-              <span class="label label-danger">9</span>
-            </a>
-            <ul class="dropdown-menu">
-              <li class="header">You have 9 tasks</li>
-              <li>
-                <!-- inner menu: contains the actual data -->
-                <ul class="menu">
-                  <li><!-- Task item -->
-                    <a href="#">
-                      <h3>
-                        Design some buttons
-                        <small class="pull-right">20%</small>
-                      </h3>
-                      <div class="progress xs">
-                        <div class="progress-bar progress-bar-aqua" style="width: 20%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                          <span class="sr-only">20% Complete</span>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <!-- end task item -->
-                  <li><!-- Task item -->
-                    <a href="#">
-                      <h3>
-                        Create a nice theme
-                        <small class="pull-right">40%</small>
-                      </h3>
-                      <div class="progress xs">
-                        <div class="progress-bar progress-bar-green" style="width: 40%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                          <span class="sr-only">40% Complete</span>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <!-- end task item -->
-                  <li><!-- Task item -->
-                    <a href="#">
-                      <h3>
-                        Some task I need to do
-                        <small class="pull-right">60%</small>
-                      </h3>
-                      <div class="progress xs">
-                        <div class="progress-bar progress-bar-red" style="width: 60%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                          <span class="sr-only">60% Complete</span>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <!-- end task item -->
-                  <li><!-- Task item -->
-                    <a href="#">
-                      <h3>
-                        Make beautiful transitions
-                        <small class="pull-right">80%</small>
-                      </h3>
-                      <div class="progress xs">
-                        <div class="progress-bar progress-bar-yellow" style="width: 80%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                          <span class="sr-only">80% Complete</span>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <!-- end task item -->
-                </ul>
-              </li>
-              <li class="footer">
-                <a href="#">View all tasks</a>
-              </li>
             </ul>
           </li>
           <!-- User Account: style can be found in dropdown.less -->
@@ -333,12 +249,8 @@
           <a href="#">
             <i class="fa fa-support"></i> <span>Support</span>
             <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
-          <ul class="treeview-menu">
-            <li class="active"><a href="support.html"><i class="fa fa-comments-o"></i> Chat</a></li>
-          </ul>
         </li>
         <li>
           <a href="forms/notification.html">
@@ -346,17 +258,6 @@
             <span class="pull-right-container">
             </span>
           </a>
-        </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-table"></i> <span>Tables</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="tables/notices.html"><i class="fa fa-circle-o"></i>Notices</a></li>
-          </ul>
         </li>
       </ul>
     </section>
@@ -407,7 +308,8 @@
                 <td>sell</td>
                 <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
                 <td>
-                  <button class="btn btn-success"><span class="fa fa-reply"></span></button>
+                  <a href="chat.html" class="btn btn-success" style="width: 50px; position: relative;"><span class="fa fa-reply"></span><span class="label" style="position: absolute; right: -5px;">365</span></a><a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                </a>
                 </td>
               </tr>
               <tr>
@@ -415,7 +317,7 @@
                 <td>buy</td>
                 <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
                 <td>
-                  <button class="btn btn-success"><span class="fa fa-reply"></span></button>
+                  <a href="chat.html" class="btn btn-success" style="width: 50px; position: relative;"><span class="fa fa-reply"></span><span class="label" style="position: absolute; right: -5px;">4</span></a><a href="#" class="dropdown-toggle" data-toggle="dropdown">
                 </td>
               </tr>
 
@@ -435,79 +337,6 @@
         <!-- /.box -->
       </div>
     </div>
-
-    <div class="box box-success">
-      <div class="box-header">
-        <i class="fa fa-comments-o"></i>
-
-        <h3 class="box-title">Chat</h3>
-
-        <div class="box-tools pull-right" data-toggle="tooltip" title="Status">
-          <div class="btn-group" data-toggle="btn-toggle">
-            <button type="button" class="btn btn-default btn-sm active"><i class="fa fa-square text-green"></i>
-            </button>
-            <button type="button" class="btn btn-default btn-sm"><i class="fa fa-square text-red"></i></button>
-          </div>
-        </div>
-      </div>
-      <div class="box-body chat" id="chat-box">
-        <!-- chat item -->
-        <div class="item">
-          <img src="../dist/img/user4-128x128.jpg" alt="user image" class="online">
-
-          <p class="message">
-            <a href="#" class="name">
-              <small class="text-muted pull-right"><i class="fa fa-clock-o"></i> 2:15</small>
-              Mike Doe
-            </a>
-            I would like to meet you to discuss the latest news about
-            the arrival of the new theme. They say it is going to be one the
-            best themes on the market
-          </p>
-          <div class="attachment">
-            <h4>Attachments:</h4>
-
-            <p class="filename">
-              Theme-thumbnail-image.jpg
-            </p>
-
-            <div class="pull-right">
-              <button type="button" class="btn btn-primary btn-sm btn-flat">Open</button>
-            </div>
-          </div>
-          <!-- /.attachment -->
-        </div>
-        <!-- /.item -->
-
-        <!-- chat item -->
-        <div class="item">
-          <img src="../dist/img/user2-160x160.jpg" alt="user image" class="offline">
-
-          <p class="message">
-            <a href="#" class="name">
-              <small class="text-muted pull-right"><i class="fa fa-clock-o"></i> 5:30</small>
-              Susan Doe
-            </a>
-            I would like to meet you to discuss the latest news about
-            the arrival of the new theme. They say it is going to be one the
-            best themes on the market
-          </p>
-        </div>
-        <!-- /.item -->
-      </div>
-      <!-- /.chat -->
-      <div class="box-footer">
-        <div class="input-group">
-          <input class="form-control" placeholder="Type message...">
-
-          <div class="input-group-btn">
-            <button type="button" class="btn btn-success"><i class="fa fa-plus"></i></button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
   </div>
   <!-- /.content-wrapper -->
 
